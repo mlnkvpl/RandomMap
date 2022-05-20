@@ -4384,7 +4384,7 @@
 				<label name="lblReportedPlayer" width="730" height="30" justify="left" pivot="topleft" />
 
 				<label text_key="xuiReportPlayerCategory" width="220" height="30" justify="right" pivot="topleft" on_hover="true" tooltip_key="xuiReportPlayerCategoryTip" />
-				<combobox name="cbxCategory" type="ComboBoxList`1[XUiC_ReportPlayer+ReportCategory]" localization_prefix="xuiCategory" width="730" height="30" />
+				<combobox name="cbxCategory" type="ComboBoxList`1[Platform.IPlayerReporting+PlayerReportCategory]" width="730" height="30" />
 
 				<label text_key="xuiReportPlayerMessage" width="220" height="30" justify="right" pivot="topleft" on_hover="true" />
 				<rect>
